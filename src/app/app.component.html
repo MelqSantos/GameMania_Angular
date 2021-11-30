@@ -32,40 +32,42 @@
 </header>
 
 <section id="destaques">
+    <!-- Título -->
+    <div class="titulo" style="background-color: #252525;">
+        <img src="../assets/imagens/prize.png" width="40" height="40">
+        <span></span>
+        <h2>Destaques</h2>
+    </div>
+    <!-- Componente Item-destaque -->
+    <app-item-destaque></app-item-destaque>
 
+    <!-- Item com o lado invertido -->
     <article id="item01" class="container-fluid">
 
-        <div class="titulo">
-            <img src="../assets/imagens/prize.png" width="40" height="40">
-            <span></span>
-            <h2>Destaques</h2>
-        </div>
-
         <div class="row">
-            <div class="descricao-item col-md-6">
-                <div class="barra"></div>
-                <div class="item">
-                    <h2>Horizon Forbidden West</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam voluptas voluptatibus rerum animi quae delectus optio laborum quidem voluptates libero, dolores veritatis debitis tempora explicabo totam ipsam dolor quisquam magni.</p>
-                    <button class="btn btn-primary">Saiba mais... <img src="../assets/imagens/icones/add.png" width="24" height="24"></button>
-                </div>
-            </div>
 
             <div class="item-img col-md-6">
-                <img src="../assets/imagens/horizon2.jpg" width="520" height="350">
+                <img src="../assets/imagens/horizon2.jpg" width="80%" height="100%">
                 <!-- Comentário da foto -->
                 <blockquote class="blockquote text-center">
                     <p>"Melhor jogo de ação e aventura"</p>
                     <footer class="blockquote-footer">IGN Brasil</footer>
                 </blockquote>
             </div>
+
+            <div class="descricao-item col-md-6">
+                <div class="item">
+                    <h2>Horizon Forbidden West</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam voluptas voluptatibus rerum animi quae delectus optio laborum quidem voluptates libero, dolores veritatis debitis tempora explicabo totam ipsam dolor quisquam magni.</p>
+                    <button class="btn btn-primary">Saiba mais... <img src="../assets/imagens/icones/add.png" width="24" height="24"></button>
+                </div>
+                <div class="barra"></div>
+            </div>
+
         </div>
     </article>
 
-
-
-    <article></article>
-    <article></article>
+    <app-item-destaque></app-item-destaque>
 
 </section>
 
