@@ -1,5 +1,6 @@
 #fotos .row {
     margin: 3% 1% 0 1%;
+    padding-bottom: 3%;
 }
 
 #fotos div[class^="col-"] {

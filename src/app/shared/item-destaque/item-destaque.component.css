@@ -1,12 +1,11 @@
 /* ----------- Destaques -----------*/
 
 #item01 {
-    height: 80vh;
     display: flex;
     align-items: center;
     background: #000000;
-    background: -webkit-linear-gradient(to bottom, #252525, #255C53);
-    background: linear-gradient(to bottom, #252525, #255C53);
+    background: -webkit-linear-gradient(to bottom, #252525, #255C53, #252525, #255C53, #252525);
+    background: linear-gradient(to bottom, #252525, #255C53, #252525, #255C53, #252525);
 }
 
 .titulo {

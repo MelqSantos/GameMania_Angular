@@ -41,46 +41,25 @@
     <!-- Componente Item-destaque -->
     <app-item-destaque></app-item-destaque>
 
-    <!-- Item com o lado invertido -->
-    <article id="item01" class="container-fluid">
-
-        <div class="row">
-
-            <div class="item-img col-md-6">
-                <img src="../assets/imagens/horizon2.jpg" width="80%" height="100%">
-                <!-- Comentário da foto -->
-                <blockquote class="blockquote text-center">
-                    <p>"Melhor jogo de ação e aventura"</p>
-                    <footer class="blockquote-footer">IGN Brasil</footer>
-                </blockquote>
-            </div>
-
-            <div class="descricao-item col-md-6">
-                <div class="item">
-                    <h2>Horizon Forbidden West</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam voluptas voluptatibus rerum animi quae delectus optio laborum quidem voluptates libero, dolores veritatis debitis tempora explicabo totam ipsam dolor quisquam magni.</p>
-                    <button class="btn btn-primary">Saiba mais... <img src="../assets/imagens/icones/add.png" width="24" height="24"></button>
-                </div>
-                <div class="barra"></div>
-            </div>
-
-        </div>
-    </article>
-
-    <app-item-destaque></app-item-destaque>
-
 </section>
 
 <section id="galeria">
     <!-- Título -->
-    <div class="titulo" style="background: linear-gradient(to bottom, #255C53); margin-top: none !important;">
-        <img src="../assets/imagens/icones/photo.png" width="40" height="40">
+    <div class="titulo" style="background: linear-gradient(to bottom, #252525); margin-top: none !important;">
+        <img src="/assets/imagens/icones/photo.png" width="40" height="40">
         <span></span>
         <h2>Galeria</h2>
+
     </div>
     <!-- Componente Itens da Galeria -->
     <app-itens-galeria></app-itens-galeria>
 </section>
+
+<section id="contato">
+    <app-contato></app-contato>
+</section>
+
+<app-footer></app-footer>
 
 
 <router-outlet></router-outlet>

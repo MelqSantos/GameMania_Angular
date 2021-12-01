@@ -1,0 +1,37 @@
+#footer {
+    background-color: #000000;
+}
+
+#rodape {
+    background-image: url("/assets/imagens/banner.jpg");
+    opacity: .4;
+    background-size: cover;
+    background-position: center;
+    border: solid 1px rgba(255, 255, 255, .7);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+    color: #ffffff;
+}
+
+.info h5 {
+    padding: 1% 0 1% 0;
+    width: 50%;
+    text-align: center;
+}
+
+.social {
+    width: 20%;
+    margin: 0 0 1% 0;
+    display: flex;
+    justify-content: space-around;
+}
