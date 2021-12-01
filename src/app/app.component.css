@@ -165,3 +165,12 @@ h2 {
 .blockquote footer {
     color: rgba(255, 255, 255, .8) !important;
 }
+
+
+/* ---------- Galeria ---------- */
+
+#galeria {
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #255C53, #252525);
+    background: linear-gradient(to bottom, #255C53, #252525);
+}

@@ -1,0 +1,20 @@
+#fotos .row {
+    margin: 3% 1% 0 1%;
+}
+
+#fotos div[class^="col-"] {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#fotos img {
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #ffffff;
+    margin: 10px;
+}
+
+#fotos img:hover {
+    transform: scale(1.02);
+    transition: 1s;
+}
