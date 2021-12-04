@@ -7,6 +7,7 @@ import { ItemDestaqueComponent } from './shared/item-destaque/item-destaque.comp
 import { ItensGaleriaComponent } from './shared/itens-galeria/itens-galeria.component';
 import { ContatoComponent } from './shared/contato/contato.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './shared/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

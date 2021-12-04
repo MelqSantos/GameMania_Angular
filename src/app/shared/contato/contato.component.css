@@ -44,6 +44,16 @@ h2 {
     margin: 0 15px 0 15px;
 }
 
+input,
+textarea {
+    color: #000000;
+    font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+    font-weight: lighter;
+}
+
 label {
     color: #ffffff;
     padding-left: 5px;
