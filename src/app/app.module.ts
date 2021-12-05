@@ -8,6 +8,8 @@ import { ItensGaleriaComponent } from './shared/itens-galeria/itens-galeria.comp
 import { ContatoComponent } from './shared/contato/contato.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { PageLoginComponent } from './pages/page-login/page-login.component';
+import { PageHomeComponent } from './pages/page-home/page-home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FormsModule } from '@angular/forms';
     ItemDestaqueComponent,
     ItensGaleriaComponent,
     ContatoComponent,
-    FooterComponent
+    FooterComponent,
+    PageLoginComponent,
+    PageHomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;600;800&display=swap');
+* {
+    font-family: Blinker;
+}
+
+header {
+    background-color: #000000;
+}
+
+#background {
+    background-image: url("src/assets/imagens/BG01.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: .4;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    border-bottom: 2px solid rgba(206, 190, 190, 0.8);
+}
+
+#login {
+    display: flex;
+    width: auto;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+
+#login a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#login img {
+    animation: girar 2s infinite;
+}
+
+#login a:hover {
+    color: aqua;
+    transition: .5s;
+}
+
+#background2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background2 .descricao {
+    color: #ffffff;
+    width: 50%;
+    margin-left: 2%;
+}
+
+#background2 .descricao h1 {
+    font-weight: 600;
+}
+
+#background2 .descricao p {
+    font-size: 22px;
+}
+
+.icones-gamer {
+    display: flex;
+    width: auto;
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+}
+
+.icones-gamer .ico {
+    color: #ffffff;
+    text-align: center;
+    margin: 5%;
+}
+
+.icones-gamer .ico:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(60deg);
+    }
+    50% {
+        transform: rotate(-60deg);
+    }
+    75% {
+        transform: rotate(60deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/* ----------- Destaques -----------*/
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 0 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.titulo span {
+    width: 5px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0 15px 0 15px;
+}
+
+
+/* ---------- Galeria ---------- */
+
+#galeria {
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #252525, #255C53, #252525);
+    background: linear-gradient(to bottom, #252525, #255C53, #252525);
+}
+
+
+/* ---------- Contato ---------- */
+
+#contato {
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #252525, #255C53, #252525);
+    background: linear-gradient(to bottom, #252525, #255C53, #252525);
+}
