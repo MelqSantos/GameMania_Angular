@@ -27,11 +27,26 @@ h2 {
     margin: 0 15px 0 15px;
 }
 
+.comprar {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comprar h4 {
+    font-weight: 600;
+}
+
 .descricao-item {
     width: 50%;
     color: #ffffff;
     display: flex;
     align-items: center;
+}
+
+.descricao-item p {
+    text-align: justify;
 }
 
 .descricao-item .barra {
@@ -48,7 +63,7 @@ h2 {
     background: #159957 !important;
     background: -webkit-linear-gradient(to right, #155799, #159957) !important;
     background: linear-gradient(to right, #155799, #159957) !important;
-    width: 200px;
+    width: 150px;
     height: 40px;
     border: none;
 }
