@@ -29,16 +29,41 @@ header {
 #login a {
     text-decoration: none;
     color: #ffffff;
+    opacity: .8;
     font-size: 20px;
+    margin: 10px;
 }
 
-#login img {
-    animation: girar 2s infinite;
+#login img:nth-child(2) {
+    padding-right: 5px;
+}
+
+#login img:hover {
+    animation: mexer 1s infinite;
 }
 
 #login a:hover {
-    color: aqua;
+    opacity: 1;
     transition: .5s;
+}
+
+#carrinho {
+    display: flex;
+}
+
+#carrinho div {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: -8px;
+    background-color: rgba(0, 255, 255, 0.74);
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #background2 {
@@ -83,7 +108,7 @@ header {
     transition: .5s;
 }
 
-@keyframes girar {
+@keyframes mexer {
     0% {
         transform: rotate(0deg);
     }

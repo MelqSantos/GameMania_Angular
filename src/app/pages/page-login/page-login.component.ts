@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CadastroService} from './cadastro.service'; 
 
 @Component({
   selector: 'app-page-login',
