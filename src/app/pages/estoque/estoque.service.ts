@@ -9,7 +9,7 @@ import {tap} from 'rxjs/operators';
 export class EstoqueService {
 
   // Alterar Requisição manualmente ao hospedar
-  private readonly API = 'http://gamemaniav2.vercel.app/estoque';
+  private readonly API = 'https://gamemaniav2.vercel.app/';
 
   constructor(private http: HttpClient) { }
 
