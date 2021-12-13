@@ -1,0 +1,23 @@
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+table th {
+    width: auto;
+}
+
+td img {
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+table th,
+td {
+    vertical-align: middle;
+}
+
+.valor {
+    width: 100px;
+}

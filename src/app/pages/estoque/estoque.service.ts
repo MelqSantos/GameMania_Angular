@@ -9,7 +9,7 @@ import {tap} from 'rxjs/operators';
 export class EstoqueService {
 
   // Alterar Requisição manualmente ao hospedar
-  private readonly API = 'https://localhost:3001/estoque';
+  private readonly API = 'http://localhost:3001/estoque';
 
   constructor(private http: HttpClient) { }
 

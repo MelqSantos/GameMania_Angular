@@ -8,6 +8,7 @@
     "estoque": [{
             "id": 1,
             "nomeProduto": "Horizon Forbidden West",
+            "src": "/assets/imagens/horizont.jpg",
             "descricao": "Horizon Forbidden West, uma sequência que se passa seis meses após os eventos de Horizon Zero Dawn. Aloy viaja ao oeste para investigar uma peste letal e misteriosa. Nessas terras inexploradas, ela encontrará novas tribos e enfrentará máquinas ainda mais perigosas",
             "preco": 249.90
         },
@@ -15,6 +16,7 @@
         {
             "id": 2,
             "nomeProduto": "God of war",
+            "src": "/assets/imagens/god.jpg",
             "descricao": "As aventuras de Kratos e seu filho Atreus na jornada mais emocionante e instigante de God Of War Kratos, o Deus da Guerra, deixou para trás sua vingança contra os deuses do Olimpo. Mais do que lutar pela sua própria sobrevivência, deve ensinar seu filho Atreus a conviver em um mundo hostil e cheio de desafios.",
             "preco": 249.90
         },
@@ -22,6 +24,7 @@
         {
             "id": 3,
             "nomeProduto": "The last of us II",
+            "src": "/assets/imagens/tlou2.jpg",
             "descricao": "Ambientado cinco anos após os eventos de The Last of Us (2013), o jogador assume o papel de duas protagonistas em um Estados Unidos pós-apocalíptico: Ellie, que busca por vingança após um evento traumático, e Abby, uma soldada que se envolve em um conflito entre uma milícia e um culto",
             "preco": 249.90
         }
