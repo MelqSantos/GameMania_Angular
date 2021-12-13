@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="card mt-3">
+        <div class="card-header">
+            <div class="float-left">
+                <h4>Produtos</h4>
+            </div>
+            <div class="float-right">
+                <button type="button" class="btn btn-secondary">Atualizar</button>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Produto</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let estoque of estoque'>
+                        <td>{{estoque.id}}</td>
+                        <td>{{estoque.nomeProduto}}</td>
+                        <td>{{estoque.descricao}}</td>
+                        <td>{{estoque.preco}}</td>
+                        <td>
+                            <span class="float-right">
+                <button class="btn btn-outline-warning mb-1 btn-sm">
+                  Atualizar
+                </button>
+  
+                <button class="btn btn-outline-danger mb-1 btn-sm">
+                  Remover
+                </button>
+              </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <ng-template #loading>
+                <span>Carregando Cursos...</span>
+            </ng-template>
+
+        </div>
+    </div>
+</div>
